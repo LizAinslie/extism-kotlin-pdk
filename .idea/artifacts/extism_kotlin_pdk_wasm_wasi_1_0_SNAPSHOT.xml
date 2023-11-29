@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="extism-kotlin-pdk-wasm-wasi-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="extism-kotlin-pdk-wasm-wasi-1.0-SNAPSHOT.jar" />
+  </artifact>
+</component>
