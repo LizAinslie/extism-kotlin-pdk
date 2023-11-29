@@ -13,5 +13,6 @@ kotlin {
     @OptIn(org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl::class)
     wasmJs {
         binaries.library()
+        d8()
     }
 }
