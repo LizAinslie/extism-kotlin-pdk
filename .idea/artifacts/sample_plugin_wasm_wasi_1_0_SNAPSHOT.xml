@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sample-plugin-wasm-wasi-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/examples/sample-plugin/build/libs</output-path>
+    <root id="archive" name="sample-plugin-wasm-wasi-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="extism-kotlin-pdk.examples.sample-plugin.wasmWasiMain" />
+    </root>
+  </artifact>
+</component>

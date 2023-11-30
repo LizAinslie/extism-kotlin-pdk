@@ -10,3 +10,5 @@ plugins {
 }
 
 rootProject.name = "extism-kotlin-pdk"
+
+include("examples:sample-plugin")
