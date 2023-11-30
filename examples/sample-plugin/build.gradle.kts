@@ -11,7 +11,9 @@ repositories {
 
 kotlin {
     @OptIn(org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl::class)
-    wasmWasi {
+    wasmJs {
         binaries.library()
+        d8 {
+        }
     }
 }

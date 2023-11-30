@@ -27,13 +27,13 @@ fun extism_input_load_u8(p: ExtismPointer): Byte {
 external fun extism_input_load_u64(p: ExtismPointer): Long
 
 @WasmImport("extism:host/env", "output_set")
-external fun extism_output_set(p: ExtismPointer, v: Long)
+external fun extism_output_set(offset: ExtismPointer, length: Long)
 
 @WasmImport("extism:host/env", "error_set")
-external fun extism_error_set(p: ExtismPointer)
+external fun extism_error_set(offset: ExtismPointer)
 
 @WasmImport("extism:host/env", "config_get")
-external fun extism_config_get(p: ExtismPointer): ExtismPointer
+external fun extism_config_get(offset: ExtismPointer): ExtismPointer
 
 @WasmImport("extism:host/env", "var_get")
 external fun extism_var_get(p: ExtismPointer): ExtismPointer
