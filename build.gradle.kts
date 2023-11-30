@@ -2,8 +2,8 @@ plugins {
     kotlin("multiplatform") version "1.9.20"
 }
 
-group = "system.alpha"
-version = "1.0-SNAPSHOT"
+group = "extism.kotlin"
+version = "0.0-ci"
 
 repositories {
     mavenCentral()
